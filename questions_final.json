@@ -1,0 +1,2571 @@
+[
+    {
+        "schedule_id": "signal_one",
+        "randomize": 60,
+        "start_date": "5-29-2020",
+        "expiration": 15,
+        "end_date": "12-30-2025",
+        "notification_title": "AWARE Survey",
+        "notification_body": "Please take some time to answer a survey on your current mood",
+        "followup_notif_title": "Follow-up Survey",
+        "followup_notif_body": "Please answer some follow-up questions based on your previous survey",
+        "interface": 0,
+        "followup_time": 30,
+        "esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on what you were doing and feeling WHEN YOUR PHONE SIGNALED YOU.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.a-upset"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.b-instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 1,
+                    "esm_title": "What was the event?",
+                    "esm_instructions": "",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "@answer1",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 3,
+                    "esm_title": "How would you categorize this event (what category of stressors does this event fall into)?",
+                    "esm_instructions": "Choose all that apply.",
+                    "esm_checkboxes": [
+                        "Academic",
+                        "My post-college future",
+                        "Friends",
+                        "Finances",
+                        "Health (self and others)",
+                        "Family",
+                        "Romantic relationships/Sex",
+                        "Global/community affairs",
+                        "Identity",
+                        "Other"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-event-category"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 7,
+                    "esm_title": "At what time did the event occur?",
+                    "esm_instructions": "(approximately when did it begin)",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.b-time"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How stressful was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-stress-rating"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How threatening was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-threatening"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Submit",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.initial.b-upset"
+                }
+            }
+        ],
+        "followup_esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "The event rated at the previous signal was:",
+                    "esm_instructions": "@answer1",
+                    "esm_quick_answers": [
+                        "Ok"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, how much are you still thinking about the potential harm associated with that event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.a harm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "1.followup.b upset"
+                }
+            }
+        ]
+    },
+    {
+        "schedule_id": "signal_two",
+        "randomize": 60,
+        "start_date": "5-29-2020",
+        "expiration": 15,
+        "end_date": "12-30-2025",
+        "notification_title": "AWARE Survey",
+        "notification_body": "Please take some time to answer a survey on your current mood",
+        "followup_notif_title": "Follow-up Survey",
+        "followup_notif_body": "Please answer some follow-up questions based on your previous survey",
+        "interface": 0,
+        "followup_time": 30,
+        "esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on what you were doing and feeling WHEN YOUR PHONE SIGNALED YOU.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.a-upset"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.b-instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 1,
+                    "esm_title": "What was the event?",
+                    "esm_instructions": "",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "@answer2",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 3,
+                    "esm_title": "How would you categorize this event (what category of stressors does this event fall into)?",
+                    "esm_instructions": "Choose all that apply.",
+                    "esm_checkboxes": [
+                        "Academic",
+                        "My post-college future",
+                        "Friends",
+                        "Finances",
+                        "Health (self and others)",
+                        "Family",
+                        "Romantic relationships/Sex",
+                        "Global/community affairs",
+                        "Identity",
+                        "Other"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-event-category"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 7,
+                    "esm_title": "At what time did the event occur?",
+                    "esm_instructions": "(approximately when did it begin)",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.b-time"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How stressful was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-stress-rating"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How threatening was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-threatening"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Submit",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.initial.b-upset"
+                }
+            }
+        ],
+        "followup_esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "The event rated at the previous signal was:",
+                    "esm_instructions": "@answer2",
+                    "esm_quick_answers": [
+                        "Ok"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, how much are you still thinking about the potential harm associated with that event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.a harm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "2.followup.b upset"
+                }
+            }
+        ]
+    },
+    {
+        "schedule_id": "signal_three",
+        "randomize": 60,
+        "start_date": "5-29-2020",
+        "expiration": 15,
+        "end_date": "12-30-2025",
+        "notification_title": "AWARE Survey",
+        "notification_body": "Please take some time to answer a survey on your current mood",
+        "followup_notif_title": "Follow-up Survey",
+        "followup_notif_body": "Please answer some follow-up questions based on your previous survey",
+        "interface": 0,
+        "followup_time": 30,
+        "esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on what you were doing and feeling WHEN YOUR PHONE SIGNALED YOU.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.a-upset"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.b-instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 1,
+                    "esm_title": "What was the event?",
+                    "esm_instructions": "",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "@answer3",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 3,
+                    "esm_title": "How would you categorize this event (what category of stressors does this event fall into)?",
+                    "esm_instructions": "Choose all that apply.",
+                    "esm_checkboxes": [
+                        "Academic",
+                        "My post-college future",
+                        "Friends",
+                        "Finances",
+                        "Health (self and others)",
+                        "Family",
+                        "Romantic relationships/Sex",
+                        "Global/community affairs",
+                        "Identity",
+                        "Other"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-event-category"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 7,
+                    "esm_title": "At what time did the event occur?",
+                    "esm_instructions": "(approximately when did it begin)",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.b-time"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How stressful was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-stress-rating"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How threatening was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-threatening"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Submit",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.initial.b-upset"
+                }
+            }
+        ],
+        "followup_esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "The event rated at the previous signal was:",
+                    "esm_instructions": "@answer3",
+                    "esm_quick_answers": [
+                        "Ok"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, how much are you still thinking about the potential harm associated with that event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.a harm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "3.followup.b upset"
+                }
+            }
+        ]
+    },
+    {
+        "schedule_id": "signal_four",
+        "randomize": 60,
+        "start_date": "5-29-2020",
+        "expiration": 15,
+        "end_date": "12-30-2025",
+        "notification_title": "AWARE Survey",
+        "notification_body": "Please take some time to answer a survey on your current mood",
+        "followup_notif_title": "Follow-up Survey",
+        "followup_notif_body": "Please answer some follow-up questions based on your previous survey",
+        "interface": 0,
+        "followup_time": 30,
+        "esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on what you were doing and feeling WHEN YOUR PHONE SIGNALED YOU.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "AT THE SIGNAL, I was feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.a-upset"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Instructions",
+                    "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.b-instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 1,
+                    "esm_title": "What was the event?",
+                    "esm_instructions": "",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "@answer4",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 3,
+                    "esm_title": "How would you categorize this event (what category of stressors does this event fall into)?",
+                    "esm_instructions": "Choose all that apply.",
+                    "esm_checkboxes": [
+                        "Academic",
+                        "My post-college future",
+                        "Friends",
+                        "Finances",
+                        "Health (self and others)",
+                        "Family",
+                        "Romantic relationships/Sex",
+                        "Global/community affairs",
+                        "Identity",
+                        "Other"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-event-category"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 7,
+                    "esm_title": "At what time did the event occur?",
+                    "esm_instructions": "(approximately when did it begin)",
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.b-time"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How stressful was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-stress-rating"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "How threatening was the event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-threatening"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "IMMEDIATELY AFTER THE EVENT, I felt...",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Submit",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.initial.b-upset"
+                }
+            }
+        ],
+        "followup_esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "The event rated at the previous signal was:",
+                    "esm_instructions": "@answer4",
+                    "esm_quick_answers": [
+                        "Ok"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup instructions"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, how much are you still thinking about the potential harm associated with that event?",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.a harm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I am feeling…",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "4.followup.b upset"
+                }
+            }
+        ]
+    },
+    {
+        "schedule_id": "bedtime_report",
+        "randomize": 30,
+        "start_date": "5-29-2020",
+        "expiration": 15,
+        "end_date": "12-30-2025",
+        "notification_title": "AWARE Survey",
+        "notification_body": "Please take some time to answer a survey about your day",
+        "bedtime-survey":1,
+        "interface": 0,
+        "esms": [
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Earlier today, you experienced the following: ",
+                    "esm_instructions": "@answer1",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-instructions 1"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "This evening, when your phone signaled you, were you still thinking about this event??",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-response 1",
+                    "esm_na": 1
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Earlier today, you experienced the following: ",
+                    "esm_instructions": "@answer2",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-instructions 2"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "This evening, when your phone signaled you, were you still thinking about this event??",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-response 2",
+                    "esm_na": 1
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Earlier today, you experienced the following: ",
+                    "esm_instructions": "@answer3",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-instructions 3"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "This evening, when your phone signaled you, were you still thinking about this event??",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-response 3",
+                    "esm_na": 1
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 5,
+                    "esm_title": "Earlier today, you experienced the following: ",
+                    "esm_instructions": "@answer4",
+                    "esm_quick_answers": [
+                        "OK"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-instructions 1"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "This evening, when your phone signaled you, were you still thinking about this event??",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "bedtime-response 4",
+                    "esm_na": 1
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "scared",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-scared"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "calm",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-calm"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "anxious",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-anxious"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "tense",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-tense"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "satisfied",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-satisfied"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "angry",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-angry"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "guilty",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-guilty"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "sad",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-sad"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "enthusiastic",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-enthusiastic"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "RIGHT NOW, I feel...",
+                    "esm_instructions": "upset",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "bedtime-upset"
+                }
+            }
+        ]
+    }
+]
