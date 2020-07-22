@@ -1574,7 +1574,7 @@
             {
                 "esm": {
                     "esm_type": 4,
-                    "esm_title": " the event?",
+                    "esm_title": "How stressful was the event?",
                     "esm_instructions": "",
                     "esm_likert_max": 7,
                     "esm_likert_max_label": "Very much",
