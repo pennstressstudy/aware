@@ -35,7 +35,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-scared"
                 }
             },
@@ -49,7 +49,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-calm"
                 }
             },
@@ -63,7 +63,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-anxious"
                 }
             },
@@ -77,7 +77,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-tense"
                 }
             },
@@ -91,7 +91,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-satisfied"
                 }
             },
@@ -105,7 +105,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-angry"
                 }
             },
@@ -119,7 +119,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-guilty"
                 }
             },
@@ -133,7 +133,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-sad"
                 }
             },
@@ -147,7 +147,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-enthusiastic"
                 }
             },
@@ -161,7 +161,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.a-upset"
                 }
             },
@@ -207,7 +207,7 @@
                         "Other"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-event-category"
                 }
             },
@@ -231,7 +231,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-stress-rating"
                 }
             },
@@ -245,10 +245,52 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-threatening"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a-unpleasant"
+                }
+            },            
             {
                 "esm": {
                     "esm_type": 17,
@@ -259,7 +301,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-scared"
                 }
             },
@@ -273,7 +315,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-calm"
                 }
             },
@@ -287,7 +329,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-anxious"
                 }
             },
@@ -301,7 +343,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-tense"
                 }
             },
@@ -315,7 +357,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-satisfied"
                 }
             },
@@ -329,7 +371,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-angry"
                 }
             },
@@ -343,7 +385,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-guilty"
                 }
             },
@@ -357,7 +399,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-sad"
                 }
             },
@@ -371,7 +413,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-enthusiastic"
                 }
             },
@@ -385,7 +427,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Submit",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-upset"
                 }
             }
@@ -400,7 +442,7 @@
                         "Ok"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup instructions"
                 }
             },
@@ -414,10 +456,67 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.a harm"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "I have worked to resolve the situation since the last signal.",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.followup.a resolve",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.followup.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.followup.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.followup.a-unpleasant"
+                }
+            },      
             {
                 "esm": {
                     "esm_type": 2,
@@ -443,7 +542,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b scared"
                 }
             },
@@ -457,7 +556,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b calm"
                 }
             },
@@ -471,7 +570,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b anxious"
                 }
             },
@@ -485,7 +584,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b tense"
                 }
             },
@@ -499,7 +598,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b satisfied"
                 }
             },
@@ -513,7 +612,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b angry"
                 }
             },
@@ -527,7 +626,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b guilty"
                 }
             },
@@ -541,7 +640,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b sad"
                 }
             },
@@ -555,7 +654,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b enthusiastic"
                 }
             },
@@ -569,7 +668,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "1.followup.b upset"
                 }
             }
@@ -611,7 +710,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-scared"
                 }
             },
@@ -625,7 +724,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-calm"
                 }
             },
@@ -639,7 +738,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-anxious"
                 }
             },
@@ -653,7 +752,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-tense"
                 }
             },
@@ -667,7 +766,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-satisfied"
                 }
             },
@@ -681,7 +780,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-angry"
                 }
             },
@@ -695,7 +794,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-guilty"
                 }
             },
@@ -709,7 +808,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-sad"
                 }
             },
@@ -723,7 +822,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-enthusiastic"
                 }
             },
@@ -737,7 +836,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.a-upset"
                 }
             },
@@ -783,7 +882,7 @@
                         "Other"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-event-category"
                 }
             },
@@ -807,7 +906,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-stress-rating"
                 }
             },
@@ -821,10 +920,52 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-threatening"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a-unpleasant"
+                }
+            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -835,7 +976,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-scared"
                 }
             },
@@ -849,7 +990,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-calm"
                 }
             },
@@ -863,7 +1004,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-anxious"
                 }
             },
@@ -877,7 +1018,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-tense"
                 }
             },
@@ -891,7 +1032,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-satisfied"
                 }
             },
@@ -905,7 +1046,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-angry"
                 }
             },
@@ -919,7 +1060,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-guilty"
                 }
             },
@@ -933,7 +1074,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-sad"
                 }
             },
@@ -947,7 +1088,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-enthusiastic"
                 }
             },
@@ -961,7 +1102,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Submit",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.initial.b-upset"
                 }
             }
@@ -976,7 +1117,7 @@
                         "Ok"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup instructions"
                 }
             },
@@ -990,10 +1131,67 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.a harm"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "I have worked to resolve the situation since the last signal.",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.followup.a resolve",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.followup.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.followup.a-unpleasant"
+                }
+            },      
             {
                 "esm": {
                     "esm_type": 2,
@@ -1019,7 +1217,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b scared"
                 }
             },
@@ -1033,7 +1231,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b calm"
                 }
             },
@@ -1047,7 +1245,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b anxious"
                 }
             },
@@ -1061,7 +1259,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b tense"
                 }
             },
@@ -1075,7 +1273,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b satisfied"
                 }
             },
@@ -1089,7 +1287,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b angry"
                 }
             },
@@ -1103,7 +1301,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b guilty"
                 }
             },
@@ -1117,7 +1315,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b sad"
                 }
             },
@@ -1131,7 +1329,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b enthusiastic"
                 }
             },
@@ -1145,7 +1343,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "2.followup.b upset"
                 }
             }
@@ -1187,7 +1385,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-scared"
                 }
             },
@@ -1201,7 +1399,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-calm"
                 }
             },
@@ -1215,7 +1413,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-anxious"
                 }
             },
@@ -1229,7 +1427,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-tense"
                 }
             },
@@ -1243,7 +1441,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-satisfied"
                 }
             },
@@ -1257,7 +1455,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-angry"
                 }
             },
@@ -1271,7 +1469,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-guilty"
                 }
             },
@@ -1285,7 +1483,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-sad"
                 }
             },
@@ -1299,7 +1497,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-enthusiastic"
                 }
             },
@@ -1313,7 +1511,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.a-upset"
                 }
             },
@@ -1359,7 +1557,7 @@
                         "Other"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-event-category"
                 }
             },
@@ -1383,7 +1581,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-stress-rating"
                 }
             },
@@ -1397,10 +1595,52 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-threatening"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a-unpleasant"
+                }
+            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -1411,7 +1651,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-scared"
                 }
             },
@@ -1425,7 +1665,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-calm"
                 }
             },
@@ -1439,7 +1679,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-anxious"
                 }
             },
@@ -1453,7 +1693,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-tense"
                 }
             },
@@ -1467,7 +1707,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-satisfied"
                 }
             },
@@ -1481,7 +1721,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-angry"
                 }
             },
@@ -1495,7 +1735,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-guilty"
                 }
             },
@@ -1509,7 +1749,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-sad"
                 }
             },
@@ -1523,7 +1763,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-enthusiastic"
                 }
             },
@@ -1537,7 +1777,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Submit",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.initial.b-upset"
                 }
             }
@@ -1552,7 +1792,7 @@
                         "Ok"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup instructions"
                 }
             },
@@ -1566,10 +1806,67 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.a harm"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "I have worked to resolve the situation since the last signal.",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.followup.a resolve",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.followup.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.followup.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.followup.a-unpleasant"
+                }
+            },      
             {
                 "esm": {
                     "esm_type": 2,
@@ -1595,7 +1892,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b scared"
                 }
             },
@@ -1609,7 +1906,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b calm"
                 }
             },
@@ -1623,7 +1920,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b anxious"
                 }
             },
@@ -1637,7 +1934,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b tense"
                 }
             },
@@ -1651,7 +1948,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b satisfied"
                 }
             },
@@ -1665,7 +1962,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b angry"
                 }
             },
@@ -1679,7 +1976,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b guilty"
                 }
             },
@@ -1693,7 +1990,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b sad"
                 }
             },
@@ -1707,7 +2004,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b enthusiastic"
                 }
             },
@@ -1721,7 +2018,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.b upset"
                 }
             }
@@ -1763,7 +2060,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-scared"
                 }
             },
@@ -1777,7 +2074,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-calm"
                 }
             },
@@ -1791,7 +2088,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-anxious"
                 }
             },
@@ -1805,7 +2102,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-tense"
                 }
             },
@@ -1819,7 +2116,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-satisfied"
                 }
             },
@@ -1833,7 +2130,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-angry"
                 }
             },
@@ -1847,7 +2144,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-guilty"
                 }
             },
@@ -1861,7 +2158,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-sad"
                 }
             },
@@ -1875,7 +2172,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-enthusiastic"
                 }
             },
@@ -1889,7 +2186,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.a-upset"
                 }
             },
@@ -1935,7 +2232,7 @@
                         "Other"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-event-category"
                 }
             },
@@ -1959,7 +2256,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-stress-rating"
                 }
             },
@@ -1973,10 +2270,52 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-threatening"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a-unpleasant"
+                }
+            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -1987,7 +2326,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-scared"
                 }
             },
@@ -2001,7 +2340,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-calm"
                 }
             },
@@ -2015,7 +2354,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-anxious"
                 }
             },
@@ -2029,7 +2368,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-tense"
                 }
             },
@@ -2043,7 +2382,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-satisfied"
                 }
             },
@@ -2057,7 +2396,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-angry"
                 }
             },
@@ -2071,7 +2410,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-guilty"
                 }
             },
@@ -2085,7 +2424,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-sad"
                 }
             },
@@ -2099,7 +2438,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-enthusiastic"
                 }
             },
@@ -2113,7 +2452,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Submit",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-upset"
                 }
             }
@@ -2128,7 +2467,7 @@
                         "Ok"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup instructions"
                 }
             },
@@ -2142,10 +2481,67 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.a harm"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "I have worked to resolve the situation since the last signal.",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.followup.a resolve",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.followup.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.followup.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.followup.a-unpleasant"
+                }
+            },      
             {
                 "esm": {
                     "esm_type": 2,
@@ -2171,7 +2567,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b scared"
                 }
             },
@@ -2185,7 +2581,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b calm"
                 }
             },
@@ -2199,7 +2595,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b anxious"
                 }
             },
@@ -2213,7 +2609,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b tense"
                 }
             },
@@ -2227,7 +2623,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b satisfied"
                 }
             },
@@ -2241,7 +2637,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b angry"
                 }
             },
@@ -2255,7 +2651,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b guilty"
                 }
             },
@@ -2269,7 +2665,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b sad"
                 }
             },
@@ -2283,7 +2679,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b enthusiastic"
                 }
             },
@@ -2297,7 +2693,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b upset"
                 }
             }
@@ -2326,7 +2722,7 @@
                     ],
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.initial.a instructions"
+                    "esm_trigger": "5.initial.a instructions"
                 }
             },
             {
@@ -2339,8 +2735,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-scared"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-scared"
                 }
             },
             {
@@ -2353,8 +2749,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-calm"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-calm"
                 }
             },
             {
@@ -2367,8 +2763,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-anxious"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-anxious"
                 }
             },
             {
@@ -2381,8 +2777,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-tense"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-tense"
                 }
             },
             {
@@ -2395,8 +2791,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-satisfied"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-satisfied"
                 }
             },
             {
@@ -2409,8 +2805,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-angry"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-angry"
                 }
             },
             {
@@ -2423,8 +2819,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-guilty"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-guilty"
                 }
             },
             {
@@ -2437,8 +2833,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-sad"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-sad"
                 }
             },
             {
@@ -2451,8 +2847,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-enthusiastic"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-enthusiastic"
                 }
             },
             {
@@ -2465,8 +2861,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.a-upset"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-upset"
                 }
             },
             {
@@ -2479,7 +2875,7 @@
                     ],
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.initial.b-instructions"
+                    "esm_trigger": "5.initial.b-instructions"
                 }
             },
             {
@@ -2511,8 +2907,8 @@
                         "Other"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-event-category"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-event-category"
                 }
             },
             {
@@ -2522,7 +2918,7 @@
                     "esm_instructions": "(approximately when did it begin)",
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.initial.b-time"
+                    "esm_trigger": "5.initial.b-time"
                 }
             },
             {
@@ -2535,8 +2931,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-stress-rating"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-stress-rating"
                 }
             },
             {
@@ -2549,10 +2945,52 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-threatening"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-threatening"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-unpleasant"
+                }
+            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -2563,8 +3001,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-scared"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-scared"
                 }
             },
             {
@@ -2577,8 +3015,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-calm"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-calm"
                 }
             },
             {
@@ -2591,8 +3029,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-anxious"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-anxious"
                 }
             },
             {
@@ -2605,8 +3043,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-tense"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-tense"
                 }
             },
             {
@@ -2619,8 +3057,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-satisfied"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-satisfied"
                 }
             },
             {
@@ -2633,8 +3071,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-angry"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-angry"
                 }
             },
             {
@@ -2647,8 +3085,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-guilty"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-guilty"
                 }
             },
             {
@@ -2661,8 +3099,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-sad"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-sad"
                 }
             },
             {
@@ -2675,8 +3113,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-enthusiastic"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-enthusiastic"
                 }
             },
             {
@@ -2689,8 +3127,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Submit",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.initial.b-upset"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.b-upset"
                 }
             }
         ],
@@ -2704,8 +3142,8 @@
                         "Ok"
                     ],
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup instructions"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup instructions"
                 }
             },
             {
@@ -2718,10 +3156,67 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.a harm"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.a harm"
                 }
             },
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "I have worked to resolve the situation since the last signal.",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.a resolve",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.a-unpleasant"
+                }
+            },      
             {
                 "esm": {
                     "esm_type": 2,
@@ -2733,7 +3228,7 @@
                     ],
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.followup.a event still happening",
+                    "esm_trigger": "5.followup.a event still happening",
                     "esm_na": 0
                 }
             },
@@ -2747,8 +3242,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b scared"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b scared"
                 }
             },
             {
@@ -2761,8 +3256,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b calm"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b calm"
                 }
             },
             {
@@ -2775,8 +3270,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b anxious"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b anxious"
                 }
             },
             {
@@ -2789,8 +3284,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b tense"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b tense"
                 }
             },
             {
@@ -2803,8 +3298,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b satisfied"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b satisfied"
                 }
             },
             {
@@ -2817,8 +3312,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b angry"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b angry"
                 }
             },
             {
@@ -2831,8 +3326,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b guilty"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b guilty"
                 }
             },
             {
@@ -2845,8 +3340,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b sad"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b sad"
                 }
             },
             {
@@ -2859,8 +3354,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b enthusiastic"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b enthusiastic"
                 }
             },
             {
@@ -2873,8 +3368,8 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "4.followup.b upset"
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.b upset"
                 }
             }
         ]
@@ -3040,7 +3535,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-scared"
                 }
             },
@@ -3054,7 +3549,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-calm"
                 }
             },
@@ -3068,7 +3563,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-anxious"
                 }
             },
@@ -3082,7 +3577,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-tense"
                 }
             },
@@ -3096,7 +3591,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-satisfied"
                 }
             },
@@ -3110,7 +3605,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-angry"
                 }
             },
@@ -3124,7 +3619,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-guilty"
                 }
             },
@@ -3138,7 +3633,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-sad"
                 }
             },
@@ -3152,7 +3647,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-enthusiastic"
                 }
             },
@@ -3166,7 +3661,7 @@
                     "esm_likert_min_label": "Not at all",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
+                    "esm_expiration_threshold": 0,
                     "esm_trigger": "bedtime-upset"
                 }
             }
