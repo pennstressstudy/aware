@@ -2696,7 +2696,7 @@
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.b upset"
                 }
-            }
+            },
         ]
     },
     {
