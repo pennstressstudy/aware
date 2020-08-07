@@ -167,6 +167,48 @@
             },
             {
                 "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.initial.a-unpleasant"
+                }
+            },
+            {
+                "esm": {
                     "esm_type": 5,
                     "esm_title": "Instructions",
                     "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
@@ -247,48 +289,6 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "1.initial.b-threatening"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I feel disconnected from my emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "1.initial.a-disconnected"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, my emotions are stopping me from doing something important",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "1.initial.a-stopping"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "1.initial.a-unpleasant"
                 }
             },            
             {
@@ -463,6 +463,21 @@
             {
                 "esm": {
                     "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "1.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
                     "esm_title": "I have worked to resolve the situation since the event.",
                     "esm_instructions": "",
                     "esm_radios": [
@@ -517,21 +532,6 @@
                     "esm_trigger": "1.followup.a-unpleasant"
                 }
             },      
-            {
-                "esm": {
-                    "esm_type": 2,
-                    "esm_title": "Is the event still going on?",
-                    "esm_instructions": "",
-                    "esm_radios": [
-                        "Yes",
-                        "No"
-                    ],
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "1.followup.a event still happening",
-                    "esm_na": 0
-                }
-            },
             {
                 "esm": {
                     "esm_type": 17,
@@ -842,6 +842,48 @@
             },
             {
                 "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.initial.a-unpleasant"
+                }
+            },  
+            {
+                "esm": {
                     "esm_type": 5,
                     "esm_title": "Instructions",
                     "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
@@ -924,48 +966,6 @@
                     "esm_trigger": "2.initial.b-threatening"
                 }
             },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I feel disconnected from my emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "2.initial.a-disconnected"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, my emotions are stopping me from doing something important",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "2.initial.a-stopping"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "2.initial.a-unpleasant"
-                }
-            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -1138,6 +1138,21 @@
             {
                 "esm": {
                     "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "2.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
                     "esm_title": "I have worked to resolve the situation since the event.",
                     "esm_instructions": "",
                     "esm_radios": [
@@ -1192,21 +1207,6 @@
                     "esm_trigger": "2.followup.a-unpleasant"
                 }
             },      
-            {
-                "esm": {
-                    "esm_type": 2,
-                    "esm_title": "Is the event still going on?",
-                    "esm_instructions": "",
-                    "esm_radios": [
-                        "Yes",
-                        "No"
-                    ],
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "2.followup.a event still happening",
-                    "esm_na": 0
-                }
-            },
             {
                 "esm": {
                     "esm_type": 17,
@@ -1517,6 +1517,48 @@
             },
             {
                 "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.initial.a-unpleasant"
+                }
+            },  
+            {
+                "esm": {
                     "esm_type": 5,
                     "esm_title": "Instructions",
                     "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
@@ -1599,48 +1641,6 @@
                     "esm_trigger": "3.initial.b-threatening"
                 }
             },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I feel disconnected from my emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "3.initial.a-disconnected"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, my emotions are stopping me from doing something important",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "3.initial.a-stopping"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "3.initial.a-unpleasant"
-                }
-            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -1809,6 +1809,21 @@
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.a harm"
                 }
+            },      
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "3.followup.a event still happening",
+                    "esm_na": 0
+                }
             },
             {
                 "esm": {
@@ -1865,21 +1880,6 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "3.followup.a-unpleasant"
-                }
-            },      
-            {
-                "esm": {
-                    "esm_type": 2,
-                    "esm_title": "Is the event still going on?",
-                    "esm_instructions": "",
-                    "esm_radios": [
-                        "Yes",
-                        "No"
-                    ],
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "3.followup.a event still happening",
-                    "esm_na": 0
                 }
             },
             {
@@ -2192,6 +2192,48 @@
             },
             {
                 "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.initial.a-unpleasant"
+                }
+            }, 
+            {
+                "esm": {
                     "esm_type": 5,
                     "esm_title": "Instructions",
                     "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
@@ -2273,49 +2315,7 @@
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "4.initial.b-threatening"
                 }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I feel disconnected from my emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.initial.a-disconnected"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, my emotions are stopping me from doing something important",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.initial.a-stopping"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.initial.a-unpleasant"
-                }
-            },  
+            }, 
             {
                 "esm": {
                     "esm_type": 17,
@@ -2484,6 +2484,21 @@
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.a harm"
                 }
+            },      
+            {
+                "esm": {
+                    "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "4.followup.a event still happening",
+                    "esm_na": 0
+                }
             },
             {
                 "esm": {
@@ -2540,21 +2555,6 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "4.followup.a-unpleasant"
-                }
-            },      
-            {
-                "esm": {
-                    "esm_type": 2,
-                    "esm_title": "Is the event still going on?",
-                    "esm_instructions": "",
-                    "esm_radios": [
-                        "Yes",
-                        "No"
-                    ],
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "4.followup.a event still happening",
-                    "esm_na": 0
                 }
             },
             {
@@ -2867,6 +2867,48 @@
             },
             {
                 "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I feel disconnected from my emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-disconnected"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, my emotions are stopping me from doing something important",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-stopping"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
+                    "esm_instructions": "",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very much",
+                    "esm_likert_min_label": "Not at all",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.initial.a-unpleasant"
+                }
+            },  
+            {
+                "esm": {
                     "esm_type": 5,
                     "esm_title": "Instructions",
                     "esm_instructions": "Please answer the following based on the MOST SIGNIFICANT STRESSFUL event that you experienced SINCE THE LAST SIGNAL. If more than one stressful event or situation happened since the last signal, please answer based on the one that had the biggest impact on you. If you did not experience any stressful events or situations, rate the most significant neutral event that you experienced since the last signal.",
@@ -2949,48 +2991,6 @@
                     "esm_trigger": "5.initial.b-threatening"
                 }
             },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I feel disconnected from my emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "5.initial.a-disconnected"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, my emotions are stopping me from doing something important",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "5.initial.a-stopping"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "Currently, I am trying hard not to feel unpleasant emotions",
-                    "esm_instructions": "",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very much",
-                    "esm_likert_min_label": "Not at all",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "5.initial.a-unpleasant"
-                }
-            },  
             {
                 "esm": {
                     "esm_type": 17,
@@ -3163,6 +3163,21 @@
             {
                 "esm": {
                     "esm_type": 2,
+                    "esm_title": "Is the event still going on?",
+                    "esm_instructions": "",
+                    "esm_radios": [
+                        "Yes",
+                        "No"
+                    ],
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 0,
+                    "esm_trigger": "5.followup.a event still happening",
+                    "esm_na": 0
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 2,
                     "esm_title": "I have worked to resolve the situation since the event.",
                     "esm_instructions": "",
                     "esm_radios": [
@@ -3215,21 +3230,6 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "5.followup.a-unpleasant"
-                }
-            },      
-            {
-                "esm": {
-                    "esm_type": 2,
-                    "esm_title": "Is the event still going on?",
-                    "esm_instructions": "",
-                    "esm_radios": [
-                        "Yes",
-                        "No"
-                    ],
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 0,
-                    "esm_trigger": "5.followup.a event still happening",
-                    "esm_na": 0
                 }
             },
             {
